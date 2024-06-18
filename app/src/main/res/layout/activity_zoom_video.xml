@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".video_zoom.Zoom_video"
+    android:background="@color/card5">
+
+    <LinearLayout
+        android:background="@drawable/rounded_top_video_app"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:hint="meeting id"
+
+            android:layout_height="wrap_content"
+            android:background="@color/home_background"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="10"
+                android:id="@+id/meeting_id_input"
+                />
+
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:hint="user name"
+            android:layout_height="wrap_content"
+            android:background="@color/home_background"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name_input"/>
+
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/card5"
+            android:text="join a meeting"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:id="@+id/join_btn"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/card5"
+            android:text="create a meeting"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:id="@+id/create_button"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Explore</string>
+    <string name="description">Dive into features that keep you informed with latest news,help\'s to organize notes,connect through video seamlessly,find motivational quotes and more.....</string>
+
+    <string name="screen1">Upload a Video</string>
+    <string name="screen2">Create a Short</string>
+    <string name="screen3">Go Live</string>
+    <string name="screen1desc">Record a new video or select a video you already have on your phone.
+        Watch YouTube Videos for Free</string>
+    <string name="screen2desc">Create, edit, and upload your own short videos.
+        All you need is an idea and a phone to record and share Shorts. </string>
+    <string name="screen3desc">YouTube live streaming allows you to reach your community in real time.
+    Go live on YouTube from webcam, mobile and encoder streaming.</string>
+    <string name="startDesc">Create a long video or shorts and upload on youtube. Interact with your subscribers on youtube live.</string>
+
+
+    <!--    quotes-->
+    <string name="quote1">\"look in my eyes and you will see me looking at you\",in a way no one looks at you,even when they see you everyday</string>
+    <string name="quote2">today the moon asked\n where is the person you used to compare me with\n  he replied it\'s nice to see her from far just like YOU
+</string>
+    <string name="quote3">In your smile, I see something more beautiful than the stars.
+</string>
+    <string name="quote4">I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more."
+</string>
+    <string name="quote5">Your time is limited, don\'t waste it living someone else life
+</string>
+    <string name="quote6">It does not matter how slowly you go, as long as you do not stop
+</string>
+    <string name="quote_des">immense your self in thought provoking quotes while exploring a myriad of powerful feature designed to elevate your experience</string>
+    <string name="quote7">Believe in yourself and all that you are
+</string>
+    <string name="quote8">Success is not final, failure is not fatal: It\'s the courage to continue that counts</string>
+    <string name="quote9">Your only limit is you.</string>
+    <string name="quote10">The only way to do great work is to love what you do</string>
+    <string name="quote11">Don\'t watch the clock; do what it does. Keep going</string>
+    <string name="quote12">Dream big, work hard, stay focused</string>
+    <string name="quote13">Every day may not be good, but there\'s something good in every day</string>
+    <string name="quote14">The only way to achieve the impossible is to believe it is possible</string>
+    <string name="quote15">Challenges are what make life interesting; overcoming them is what makes life meaningful.</string>
+    <string name="quote16">Your time is limited, don\'t waste it living someone else\'s life.</string>
+
+
+    //location
+
+    //pasta
+    <string name="pastaIngredients">
+        Tamil nadu,India
+</string>
+    <string name="pastaDesc">meenakshi amma temple is a historic hindu temple located in maduri,Tamil namdu,India.is\'s meenakshi a form of goddess parvati,and her consort,sundareswara,a form of shiva.the temple complex is renowned for it\'s stunning architecture , intricate carving,and vibrant festivals</string>
+    //maggi
+    <string name="maggiIngredients">Ellora,Maharashtra</string>
+    <string name="maggieDesc">The Kailasa Temple, also known as the Kailasanatha Temple, is a remarkable ancient Hindu temple located in Ellora, Maharashtra, India. It was commissioned by King Krishna I of the Rashtrakuta dynasty and was constructed in the 8th century CE. Carved out of a single rock, it is one of the largest monolithic structures in the world. The temple is dedicated to Lord Shiva and is renowned for its intricate carvings and architectural beauty.
+</string>
+    //cake
+    <string name="cakeIngredients">Kumbakonam,Tamil Nadu</string>
+    <string name="cakeDesc">The Adi Kumbeswarar Temple is a famous Hindu temple dedicated to Lord Shiva located in the town of Kumbakonam, Tamil Nadu, India. It is believed to have been built around the 7th century AD, making it approximately 1300 to 1400 years old. The temple is known for its historical significance, architectural beauty, and religious importance in the region.
+</string>
+    //pancake
+    <string name="pancakeIngredients">Dwaraka,Gujarat</string>
+    <string name="pancakeDesc">The Dwarakadhish Temple, situated in Dwarka, Gujarat, India, is dedicated to Lord Krishna. According to Hindu beliefs, it was constructed over 2500 years ago. While the exact date of its construction is debated, it is considered one of the holiest pilgrimage sites for Hindus and holds immense religious significance.
+</string>
+    //pizza
+    <string name="pizzaIngredients">Badami,Karnataka</string>
+    <string name="pizzaDesc">The Badami Cave Temples are a complex of Hindu, Jain, and Buddhist cave temples located in Badami, Karnataka, India. They were constructed during the rule of the Chalukya dynasty, between the 6th and 8th centuries AD. These rock-cut temples are renowned for their stunning architecture, intricate carvings, and religious significance, making them a UNESCO World Heritage site.
+</string>
+    //burgers
+    <string name="burgerIngredients">konark,Odisha,</string>
+    <string name="burgerDesc">The Sun Temple typically refers to the famous Konark Sun Temple located in Konark, Odisha, India. It was built in the 13th century CE by King Narasimhadeva I of the Eastern Ganga dynasty. This temple is dedicated to the Sun god Surya and is renowned for its impressive architecture and intricate stone carvings depicting various aspects of life and mythology. It is considered one of the crowning achievements of Kalinga architecture.
+</string>
+    //fries
+    <string name="friesIngredients">Halasuru,Bengalore</string>
+    <string name="friesDesc">The Halasuru Someshwara Temple, also known as the Ulsoor Someshwara Temple, is a renowned Hindu temple dedicated to Lord Shiva. It is located in the Halasuru (Ulsoor) area of Bangalore (Bengaluru), Karnataka, India. The temple dates back to the Chola dynasty period, around the 12th century AD, making it approximately 800 years old. It is known for its Dravidian-style architecture and is a popular pilgrimage site and tourist attraction in Bangalore.
+</string>
+    
+    <string name="Airavatesvara"> Kumbakonam,Tamil nadu</string>
+    <string name="Airavatesvara_dec"> The Airavatesvara Temple is a Hindu temple dedicated to Lord Shiva and is located in Darasuram, near Kumbakonam, Tamil Nadu, India. It was built by the Chola dynasty in the 12th century AD. This temple is renowned for its exquisite architecture, intricate carvings, and rich sculptural details, making it a UNESCO World Heritage Site. The Airavatesvara Temple is considered one of the finest examples of Dravidian architecture and attracts visitors from around the world.
+</string>
+    
+    <string name="Brahadeshwawa">Thanjavur,Tamil nadu</string>
+    <string name="Brahadeshwawa_dec">The Brihadeeswarar Temple, also known as the Brihadeshwara Temple, is a Hindu temple dedicated to Lord Shiva. It is located in Thanjavur (Tanjore), Tamil Nadu, India. Built by the Chola dynasty king Raja Raja I in the 11th century AD, it is one of the largest temples in India and is renowned for its magnificent architecture and intricate carvings. So, the Brihadeshwara Temple is around 1000 years old.
+</string>
+
+    <string name="Lingaraj">Bhubaneshwar,Odisha</string>
+    <string name="Lingaraj_dec">The Lingaraj Temple is a Hindu temple dedicated to Lord Shiva and is located in Bhubaneswar, Odisha, India. It is one of the oldest and largest temples in Bhubaneswar and dates back to the 11th century AD. So, the Lingaraj Temple is around 1000 years old.
+</string>
+
+
+
+</resources>

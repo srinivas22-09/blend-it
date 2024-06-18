@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NammaKarnataka"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Location.DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Location.Location_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Location.Loaction_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewQuiz.NewQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".QuizApp.Quiz_app_layout"
+            android:exported="false" />
+        <activity
+            android:name=".Quotes.Quotes_app"
+            android:exported="false" />
+        <activity
+            android:name=".video_zoom.Conference_activity"
+            android:exported="false" />
+        <activity
+            android:name=".video_zoom.Zoom_video"
+            android:exported="false" />
+        <activity
+            android:name=".Tictactoe.Tictok"
+            android:exported="false" />
+        <activity
+            android:name=".Tictactoe.Tictok_app"
+            android:exported="false" />
+        <activity
+            android:name=".dictonary.Dictonary_layout"
+            android:exported="false" />
+        <activity
+            android:name=".tictactoe.MainActivity_tictac"
+            android:exported="false" />
+        <activity
+            android:name=".tictactoe.ResultDialog"
+            android:exported="false" />
+        <activity
+            android:name=".tictactoe.AddPlayers"
+            android:exported="false" />
+        <activity
+            android:name=".dictonary.MainActivity_dictonary"
+            android:exported="false" />
+        <activity
+            android:name=".todo.MainActivity_todo"
+            android:exported="false" />
+        <activity
+            android:name=".location_layout.DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".location_layout.MainActivity_location"
+            android:exported="false" />
+        <activity
+            android:name=".ChatComrade.Test"
+            android:exported="false" />
+        <activity
+            android:name=".ChatComrade.Chat_comrade_app"
+            android:exported="false" />
+        <activity
+            android:name=".news.News_full_activity"
+            android:exported="false" />
+        <activity
+            android:name=".news.NewsApp"
+            android:exported="false" />
+        <activity
+            android:name=".browser.Browser_layout"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GetStarted"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

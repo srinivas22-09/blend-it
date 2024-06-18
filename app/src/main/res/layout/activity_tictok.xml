@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@color/home_background"
+    tools:context=".Tictactoe.Tictok">
+
+   <ImageView
+       android:id="@+id/back_button_tictactoe"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentStart="true"
+       android:src="@drawable/back_arrow"
+       android:padding="15dp"/>
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/brandon"
+        android:text="TicTakToe"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:id="@+id/players_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_title"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/rounded_corner"
+            android:elevation="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/score_player_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="player one score"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/score_player1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/score_player_one"
+                android:layout_centerHorizontal="true"
+                android:text="0" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/rounded_corner"
+            android:elevation="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/score_player_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="player two score"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/score_player2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/score_player_two"
+                android:layout_centerHorizontal="true"
+                android:text="0" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loyout_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/players_score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:textColor="@color/black"
+                android:backgroundTint="@color/card1"
+                android:elevation="5dp"
+                android:id="@+id/btn0"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:shadowRadius="10"
+                app:cornerRadius="5dp" />
+            <Button
+                android:textColor="@color/black"
+                android:backgroundTint="@color/card1"
+                android:elevation="5dp"
+                android:id="@+id/btn1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:shadowRadius="10"
+                app:cornerRadius="5dp" />
+            <Button
+                android:textColor="@color/black"
+                android:backgroundTint="@color/card1"
+                android:elevation="5dp"
+                android:id="@+id/btn2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:shadowRadius="10"
+                app:cornerRadius="5dp" />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:textColor="@color/black"
+                android:backgroundTint="@color/card1"
+                android:elevation="5dp"
+                android:id="@+id/btn3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:shadowRadius="10"
+                app:cornerRadius="5dp" />
+            <Button
+                android:textColor="@color/black"
+                android:backgroundTint="@color/card1"
+                android:elevation="5dp"
+                android:id="@+id/btn4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:shadowRadius="10"
+                app:cornerRadius="5dp" />
+            <Button
+                android:textColor="@color/black"
+                android:backgroundTint="@color/card1"
+                android:elevation="5dp"
+                android:id="@+id/btn5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:shadowRadius="10"
+                app:cornerRadius="5dp" />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:textColor="@color/black"
+                android:backgroundTint="@color/card1"
+                android:elevation="5dp"
+                android:id="@+id/btn6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:shadowRadius="10"
+                app:cornerRadius="5dp" />
+            <Button
+                android:textColor="@color/black"
+                android:backgroundTint="@color/card1"
+                android:elevation="5dp"
+                android:id="@+id/btn7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:shadowRadius="10"
+                app:cornerRadius="5dp" />
+            <Button
+                android:textColor="@color/black"
+                android:backgroundTint="@color/card1"
+                android:elevation="5dp"
+                android:id="@+id/btn8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:shadowRadius="10"
+                app:cornerRadius="5dp" />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loyout_linear"
+        android:text="status"
+        android:id="@+id/text_status"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="@color/card1"
+        android:id="@+id/button_play_again"
+        android:layout_marginTop="8dp"
+        android:text="play again"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_status"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:textColor="@color/black"
+        android:backgroundTint="@color/card1"
+        android:id="@+id/btn_restart"
+        android:layout_marginTop="8dp"
+        android:text="restart"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_play_again"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
